@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<title>E handel Info1</title>
+</head>
+	<script>
+	var dataLayer; 
+		dataLayer = [{
+			}];
+			
+</script>
+<body>
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDHK6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KDHK6F');</script>
+<script>
+var dataLayer;
+dataLayer.push({
+    'event':'purchaseEvent',
+    
+  'ecommerce': {
+    'currencyCode':'SEK',
+    'purchase': {
+      'actionField': {
+        'id': 'T12345',                         // Transaction ID. Required for purchases and refunds.
+        'affiliation': 'Isabelles store',
+        'revenue': '35.50',                     // Total transaction value (incl. tax and shipping)
+        'tax':'4.90',
+        'shipping': '5.99',
+        'coupon': 'SUMMER_SALE'
+      },
+      'products': [{                            // List of productFieldObjects.
+        'name': 'Lovely knitted piece',
+        'id': '54321',
+        'price': '10.25',
+        'brand': 'Google',
+        'category': 'Apparel',
+        'variant': 'Gray',
+        'quantity': 2                           // Optional fields may be omitted or set to empty string.
+       },
+       {
+         'name': 'Supercute dress',
+        'id': '12345',
+        'price': '15.25',
+        'brand': 'Google',
+        'category': 'Apparel',
+        'variant': 'Gray',
+        'quantity': 1
+       }]
+    }
+  }
+});
+</script>
+    <p>TACK FÖR DITT KÖP</p>
+    <a href='hello-world.html'>Tillbaka</a>
+    
+</body>
+</html>
